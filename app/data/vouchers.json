@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "merchantName": "Nany's pavvilon",
+        "originalPrice": 50000,
+        "discountPrice": 38000,
+        "sold": 1338
+    },
+    {
+        "id": 2,
+        "merchantName": "Nany's pavvilon",
+        "originalPrice": 100000,
+        "discountPrice": 76000,
+        "sold": 3103
+    },
+    {
+        "id": 3,
+        "merchantName": "Haagen Dazs",
+        "originalPrice": 100000,
+        "discountPrice": 60000,
+        "sold": 54
+    },
+    {
+        "id": 4,
+        "merchantName": "Haagen Dazs",
+        "originalPrice": 300000,
+        "discountPrice": 180000,
+        "sold": 3
+    },
+    {
+        "id": 5,
+        "merchantName": "Timezone Topup Saldo",
+        "originalPrice": 100000,
+        "discountPrice": 80000,
+        "sold": 37
+    },
+    {
+        "id": 6,
+        "merchantName": "Nany's pavvilon",
+        "originalPrice": 190000,
+        "discountPrice": 150000,
+        "sold": 37
+    },
+    {
+        "id": 7,
+        "merchantName": "Topup Saldo Funworld",
+        "originalPrice": 125000,
+        "discountPrice": 93000,
+        "sold": 97
+    },
+    {
+        "id": 8,
+        "merchantName": "Topup Saldo Funworld",
+        "originalPrice": 250000,
+        "discountPrice": 180000,
+        "sold": 158
+    }
+]
