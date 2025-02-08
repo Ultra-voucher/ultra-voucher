@@ -1,100 +1,78 @@
-# Welcome to React Router!
+# Ultra Voucher
 
-A modern, production-ready template for building full-stack React applications using React Router.
+## Description
+Ultra Voucher is a digital platform that provides users with access to a wide range of vouchers and discounts from various merchants. The application allows users to easily purchase, redeem, and manage vouchers securely. Whether it's for shopping, dining, entertainment, or travel, Ultra Voucher offers a seamless experience to maximize savings and convenience.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
+## Table of Contents
+1. [Tech Stack](#tech-stack)
+2. [Features](#features)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [API Documentation](#api-documentation)
+6. [Security](#security)
+7. [Contributing](#contributing)
+8. [License](#license)
+
+## Tech Stack
+Ultra Voucher is built using the latest technologies to ensure scalability, performance, and security. The core tech stack includes:
+
+- **Frontend:** React.js, React Router V7, Tailwind CSS
+- **Authentication:** OAuth2
+- **Cloud & Hosting:** Render.com
+- **CI/CD:** GitHub Actions, Docker
 
 ## Features
+- User-friendly interface for browsing and purchasing vouchers
+- Secure digital wallet for storing and managing vouchers
+- Multiple payment methods, including credit/debit cards and digital wallets
+- Real-time voucher redemption and tracking
 
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
+## Installation
+To set up Ultra Voucher locally, follow these steps:
 
-## Getting Started
+```sh
+# Clone the repository
+git clone https://github.com/Ultra-voucher/ultra-voucher.git
+cd ultra-voucher
 
-### Installation
+# Install dependencies
+bun install
 
-Install the dependencies:
+# Set up environment variables
+cp .env.example .env
 
-```bash
-npm install
+# Start the development server
+bun run dev
 ```
 
-### Development
+## Usage
+1. Sign up or log in to your account.
+2. Browse available vouchers by category.
+3. Select and purchase a voucher.
+4. Redeem the voucher at participating merchants.
+5. Track your transactions and remaining balances.
 
-Start the development server with HMR:
+## API Documentation
+Ultra Voucher provides a RESTful API for developers who want to integrate its services into their applications. The API includes endpoints for:
+- User authentication and account management
+- Voucher browsing, purchasing, and redemption
+- Payment processing and transaction history
+- Merchant onboarding and reporting
 
-```bash
-npm run dev
-```
+Refer to the [API Documentation](https://docs.ultravoucher.com) for detailed specifications and usage examples.
 
-Your application will be available at `http://localhost:5173`.
+## Security
+- Uses HTTPS for secure communication
+- Data encryption for user-sensitive information
+- OAuth2 and JWT-based authentication
+- Role-based access control for restricted operations
 
-## Building for Production
+## Contributing
+We welcome contributions! To contribute:
+1. Fork the repository
+2. Create a new branch (`feature/your-feature`)
+3. Make your changes and commit them
+4. Push to your fork and submit a pull request
 
-Create a production build:
-
-```bash
-npm run build
-```
-
-## Deployment
-
-### Docker Deployment
-
-This template includes three Dockerfiles optimized for different package managers:
-
-- `Dockerfile` - for npm
-- `Dockerfile.pnpm` - for pnpm
-- `Dockerfile.bun` - for bun
-
-To build and run using Docker:
-
-```bash
-# For npm
-docker build -t my-app .
-
-# For pnpm
-docker build -f Dockerfile.pnpm -t my-app .
-
-# For bun
-docker build -f Dockerfile.bun -t my-app .
-
-# Run the container
-docker run -p 3000:3000 my-app
-```
-
-The containerized application can be deployed to any platform that supports Docker, including:
-
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
-
-### DIY Deployment
-
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
-
----
-
-Built with ❤️ using React Router.
+## License
+Ultra Voucher is licensed under the [MIT License](LICENSE).
