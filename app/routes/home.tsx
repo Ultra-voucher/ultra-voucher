@@ -1,24 +1,43 @@
 import type { Route } from './+types/home';
-import UpperAppBar from '~/components/appBar';
+
+import { getAllMerchants } from '~/request/merchants';
+import { getAllVouchers } from '~/request/vouchers';
+
 import FeatureBar from '~/components/featureBar';
 import Brand from '~/components/brand';
 import Footer from '~/components/footer';
 import VoucherComponent from '~/components/voucher';
+import { CarouselHome } from '~/components/carousel';
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: 'New React Router App' },
-    { name: 'description', content: 'Welcome to React Router!' },
+    { title: 'Ultra Voucher' },
+    { name: 'description', content: 'Welcome to Ultra Voucher' },
   ];
 }
 
-export default function Home() {
+export async function loader({ params }: Route.LoaderArgs) {
+  const [merchants, vouchers ]  = await Promise.all(
+    [
+      getAllMerchants(),
+      getAllVouchers(),
+    ]
+  )
+  return { merchants, vouchers }
+}
+
+export default function Home({
+  loaderData
+}: Route.ComponentProps) {
+
+  const { merchants, vouchers } = loaderData;
+  
   return (
     <>
-      <UpperAppBar />
-      <FeatureBar />
-      <Brand />
-      <VoucherComponent />
+      <FeatureBar/>
+      <CarouselHome />
+      <Brand merchants={merchants}/>
+      <VoucherComponent vouchers={vouchers}/>
       <Footer />
     </>
   );

@@ -1,50 +1,24 @@
-import { useEffect, useState } from 'react';
-import { getAllMerchants } from '~/request/merchants';
-import { merchantsSchema } from '~/schema/merchants';
+import { z } from "zod";
+import { merchantsSchema } from "~/schema/merchants";
+import { Link } from "react-router";
 
-export default function Brand() {
-  // Type the brands state as an array of merchantsSchema
-  const [brands, setBrands] = useState<merchantsSchema[]>([]);
-  const [isLoading, setIsLoading] = useState(true);
-  const [error, setError] = useState<string | null>(null);
+type Merchants = z.infer<typeof merchantsSchema>[]
 
-  useEffect(() => {
-    const fetchBrands = async () => {
-      try {
-        const fetchedBrands = await getAllMerchants();
-        setBrands(fetchedBrands);
-      } catch (err) {
-        setError('Failed to load brands');
-        console.error(err);
-      } finally {
-        setIsLoading(false);
-      }
-    };
-
-    fetchBrands();
-  }, []);
-
-  if (isLoading) {
-    return <div>Loading...</div>;
-  }
-
-  if (error) {
-    return <div>{error}</div>;
-  }
-
+export default function Brand({ merchants }: { merchants: Merchants }) {
+  
   return (
-    <div className="container mx-auto py-8">
+    <div className="px-12 py-8">
       <div className="flex justify-between mb-6">
         <h2 className="text-xl font-bold text-center">Top Brand</h2>
-        <h2 className="text-xl  text-center">
-          View All <span className="ml-2 text-xl">{'>'}</span>
-        </h2>
+        <Link to={'/brands'} className="text-center hover:text-[#41A55C]">
+          View All {'>'}
+        </Link>
       </div>
-      <div className="grid grid-cols-2 md:grid-cols-4">
-        {brands.map((brand, index) => (
-          <div
+      <div className="grid grid-cols-[repeat(auto-fit,minmax(100px,1fr))] sm:grid-cols-[repeat(auto-fit,minmax(150px,1fr))] gap-2">
+        {merchants.map((brand, index) => (
+          <Link to={`/${brand.name}`}
             key={index}
-            className="bg-[#476749] w-72 shadow-md rounded-lg flex flex-col items-center"
+            className="bg-[#476749] shadow-md rounded-lg flex flex-col items-center"
           >
             <img
               src={brand.imageProfile}
@@ -55,7 +29,7 @@ export default function Brand() {
             <p className="text-lg text-white font-semibold h-16 flex justify-center items-center">
               Discount up to {brand.discount}%
             </p>
-          </div>
+          </Link>
         ))}
       </div>
     </div>
