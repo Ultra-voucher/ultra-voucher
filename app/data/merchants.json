@@ -1,0 +1,78 @@
+[
+    {
+        "name": "Nanny's Pavillon By Altima Group",
+        "imageProfile": "https://ucarecdn.com/8c77843d-b63e-4c49-aa70-1e8247697e41/20230811T050940703Z1691730580group.png",
+        "imageBanner": "https://ucarecdn.com/37d257b9-72f2-4d2f-bb75-8f8e62543842/20240905T071045751Zgroup.png",
+        "discount": 24,
+        "location": {
+            "header": "Nanny's Pavillon - Nanny's Pavillon, La Riviera - PIK 2",
+            "main": "La Riviera PIK 2, Jl. Otista No.01 unit B, Lemo, Kec. Teluknaga, Kabupaten Tangerang, Banten 15510"
+        },
+        "description": "Didirikan sejak 23 Maret 2009, Nanny’s Pavillon pertama kali membuka outletnya di Bandung, Indonesia. Nanny’s Pavillon merupakan restoran panekuk berkonsep French American. Tradisi dari French American family sangat diikuti oleh Nanny’s Pavillon, oleh karena itu rutinitasnya mencerminkan kehangatan, nyaman, dan suasana akrab.",
+        "termCondition": [
+            "Voucher dapat ditukarkan selama jam operasional berlangsung",
+            "Voucher berlaku setiap hari",
+            "Voucher hanya berlaku untuk dine in & take away",
+            "Voucher sudah termasuk tax & service",
+            "Voucher tidak dapat digabungkan dengan promosi lainnya"
+        ],
+        "category": "fnb"
+    },
+    {
+        "name": "Haagen Dazs",
+        "imageProfile": "https://ucarecdn.com/db2fe8fc-f316-4462-948e-569dff1589e9/20230811T050024460Z1691730024group.png",
+        "imageBanner": "https://ucarecdn.com/4ff543d7-3c84-43f6-9f95-361f816a2ef2/20240905T073916555Zgroup.png",
+        "discount": 40,
+        "location": {
+            "header": "Haagen Dazs Kiosk Centre Point Medan",
+            "main": "Mall Centre Point (Medan, Jl. Jawa Lantai UG, Gg. Buntu, Kec. Medan Tim., Kota Medan, Sumatera Utara 20232"
+        },
+        "description": "Haagen-Dazs yang merupakan super premium ice cream dan brand yang populer di Indonesia. Haagen-Dazs menyediakan sekitar 16 varian menu ice cream yang langsung diimpor dari Perancis. Gerai dengan konsep cafe ini bisa dijadikan sebagai pilihan tempat hangout setelah seharian beraktivitas. Haagen-Dazs juga menyediakan fasilitas dine-in atau take away bagi Anda yang ingin menikmati ice cream di sini.",
+        "termCondition": [
+            "Voucher berlaku setiap hari termasuk weekend dan Hari Libur Nasiona",
+            "1 (satu) transaksi dapat menggunakan lebih dari 1(satu) voucher",
+            "Berlaku tanpa minimal pembelian untuk dine in atau takeawa",
+            "Berlaku untuk seluruh produk Haagen Dazs, termasuk produk kemasan/prepacked dan dine in.",
+            "Wajib diredeem oleh kasir dan di area kasir"
+        ],
+        "category": "fnb"
+    },
+    {
+        "name": "Timezone",
+        "imageProfile": "https://ucarecdn.com/f4500dc6-67a1-4af4-b0d2-a1dd5416337a/20230904T063346378Z1693809226group.png",
+        "imageBanner": "https://uvproduction.oss-ap-southeast-5.aliyuncs.com/mdm/assets/images/2024-05-03T05%3A42%3A13.891Zgroup.jpeg",
+        "discount": 30,
+        "location": {
+            "header": "Timezone Lubuk Pakam Plasa",
+            "main": "Pusat Perbelanjaan Lubuk Pakam Lt. 1, Jl. Serdang Baru No.1 - Lubuk Pakam, Deli Serdang - Sumut 20512"
+        },
+        "description": "Didirikan pada tahun 1978, pusat hiburan keluarga Timezone pertama dibuka di Perth, Australia Barat. Timezone adalah pilihan yang tempat untuk menikmati waktu bersantai bersama keluarga. Fasilitas hiburan Arcade Games ini sayang untuk Anda lewati.",
+        "termCondition": [
+            "Voucher berlaku setiap hari, termasuk weekend dan hari libur Nasional.",
+            "Voucher berlaku untuk produk yang tertera pada keterangan voucher.",
+            "Voucher hanya dapat digunakan 1 (satu) kali tanpa minimum transaksi.",
+            "Satu transaksi dapat menggunakan lebih dari 1 voucher.",
+            "Jika transaksi dibatalkan Voucher akan dianggap hangus."
+        ],
+        "category": "activity"
+    },
+    {
+        "name": "Funworld",
+        "imageProfile": "https://ucarecdn.com/7405397e-fcef-4eaf-9621-95c9dacec1b7/20230904T064403415Z1693809843group.png",
+        "imageBanner": "https://ucarecdn.com/8b57d113-4397-4788-8b27-d967a97fc114/1674627224BG_FunWorld.jpg",
+        "discount": 25,
+        "location": {
+            "header": "Funworld - CITIMALL DUMAI",
+            "main": "Bukit Datuk, Dumai Barat, Dumai City, Riau 28826"
+        },
+        "description": "Ajak keluarga liburan di Funworld untuk menikmati berbagai macam jenis wahana permainan yang dapat membantu mengembangkan daya motorik dan kreatifitas anak, bahkan sebagai tempat untuk menyegarkan pikiran kembali bagi orang dewasa. Funworld menghadirkan arena rekreasi dan hiburan keluarga yang lengkap dan fun, suasana yang nyaman, aman, dan pelayanan yang ramah serta profesional untuk segala usia.",
+        "termCondition": [
+            "Voucher Top-Up senilai Rp.125.000 atau Rp.250.000 hanya dapat ditukarkan di outlet tertentu, yang tertera pada outlet berlaku.",
+            "Voucher berlaku setiap hari, termasuk Weekend dan Hari Libur Nasional.",
+            "Redeem Voucher dilakukan oleh Kasir dan di Area Kasir. Apabila voucher di redeem sebelum tiba di outlet tanpa dilakukan oleh kasir, maka voucher dianggap hangus.",
+            "Jam operasional outlet dapat berubah sesuai jam operasional mall",
+            "Batas penukaran Voucher adalah 90 menit sebelum outlet tutup."
+        ],
+        "category": "activity"
+    }
+]

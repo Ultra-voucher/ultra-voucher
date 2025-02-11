@@ -1,0 +1,50 @@
+[
+    {
+        "name": "F&B",
+        "icon": "https://ucarecdn.com/95e574b5-f5e5-4805-bd7b-4226874181f0/fnbicon.png"
+    },
+    {
+        "name": "Activity",
+        "icon": "https://ucarecdn.com/f534fe04-a965-4c0d-83c1-9de2fc3050aa/activityicon.png"
+    },
+    {
+        "name": "App",
+        "icon": "https://ucarecdn.com/1312b007-0b03-40e2-b20a-0624628f6d98/appicon.png"
+    },
+    {
+        "name": "Beauty",
+        "icon": "https://ucarecdn.com/249ba37c-3ca6-4780-ad85-976fc3d9c6d0/beautyicon.png"
+    },
+    {
+        "name": "Experience",
+        "icon": "https://ucarecdn.com/ceeca8c0-1c3a-4034-ad79-67aad19db16e/experienceicon.png"
+    },
+    {
+        "name": "Game",
+        "icon": "https://ucarecdn.com/f11786b9-25d3-48e3-a690-04ff38387ded/gameicon.png"
+    },
+    {
+        "name": "Healt",
+        "icon": "https://ucarecdn.com/9d06e3e4-7312-4df2-95c3-04597be2b9d4/healticon.png"
+    },
+    {
+        "name": "Invest",
+        "icon": "https://ucarecdn.com/4eef4e1f-7baa-4c68-b982-479a0834a3c6/investicon.png"
+    },
+    {
+        "name": "Retail",
+        "icon": "https://ucarecdn.com/efa228c5-cf6e-435c-9044-96a8d63df9d6/retailicon.png"
+    },
+    {
+        "name": "Service",
+        "icon": "https://ucarecdn.com/98b8971b-d806-4463-9c8a-4f51b478e8e4/serviceicon.png"
+    },
+    {
+        "name": "Streaming",
+        "icon": "https://ucarecdn.com/3b115f1c-96d3-4e77-8a68-2c78bb07fe2f/20240926T123359789Z1727354039group.png"
+    },
+    {
+        "name": "Travel",
+        "icon": "https://ucarecdn.com/7510dfc5-88c6-4eb6-992c-2a265bbd4fb3/travel.png"
+    }
+]
